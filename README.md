@@ -6,6 +6,8 @@ A Max for Live device for triggering WLED presets directly from MIDI notes in Ab
 
 Built for live production environments where lighting cues need to follow an Ableton session without relying on a separate lighting timeline or manual preset changes.
 
+![WLED Preset Controller](images/wled-preset-controller.png)
+
 MIDI notes C1 through G8 map directly to WLED presets 1 through 92.
 
 Features
@@ -63,6 +65,13 @@ Wi-Fi can work, but wireless reliability, congestion, roaming, and interference 
 How It Works
 
 The device converts incoming MIDI notes into WLED preset numbers and sends the corresponding command to the configured controller.
+
+
+## Demo
+
+Example of WLED preset changes triggered during playback:
+
+![WLED Preset Controller Demo](images/WLED_Example.gif)
 
 For example:
 
